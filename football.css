@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "lato", "arial";
+    font-weight: 300;
+    font-size: 30px;
+    color:cornsilk;
+    text-transform: uppercase;
+    scroll-behavior: smooth;
+
+}
+body{
+    
+    padding:0px;
+    margin:0px;
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/feild.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#navbar ul{
+    text-align: right;
+    width: 100%;
+    position: absolute;/*top white space deleted */ 
+    margin-top: 10px;
+    list-style: none;
+}
+ #navbar ul li{
+    display: inline-block;
+    margin:auto 1%;
+    font-size: 60%;
+    
+} 
+#navbar ul li:hover{
+    color: orange;
+    transition: 0.4s;
+}
+
+#hero-txt{
+    
+    text-align: center;
+    max-width: 100%;
+    padding-top: 8%;
+}
+#hero-txt h1{
+    letter-spacing: 1em;
+    font-weight: 200;
+    
+}
+#hero-txt h3{
+    font-weight: 200;
+}
+
+.section ul{
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    margin: 5px auto;
+    
+}
+.section ul li{
+    display: inline-block;
+    margin : 0px 5%; /*img-margin*/
+    font-weight: lighter;
+}
+.section ul li:hover{
+    color:goldenrod;
+
+}
+.section{
+    padding-top: 3%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.img-name{
+    font-size: 80%;
+    
+}
+#men{
+    height: 70vh;
+    background-color: darkolivegreen;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/men_sec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sec-name{
+    margin-left: 100px;
+    font-weight: 200;
+    margin-top: 0px;/*decreases space between section*/
+    padding-top: 20px;   
+}
+ 
+
+#women{
+    height: 70vh;
+    background-color:pink;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/women_sec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#accessories{
+    height: 70vh;
+    background-color: lightblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/accessories_sec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#footer{
+    height:40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(image/stadium2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section ul .sec-of ul a:visited{
+    color:cornsilk;
+}
+
+
+
+
+
+
