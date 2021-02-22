@@ -1,1 +1,1 @@
-It's a basic pge of ecommerce Sports section frontend page.
+It's a basic page of ecommerce Sports section frontend page.
